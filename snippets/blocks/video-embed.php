@@ -34,3 +34,12 @@ $loop     = $block->loop()->toBool()         ? "loop" : "";
     </figure>
 </div>
 <?php endif ?>
+
+<style>
+.video-container, .video-container > figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+</style>
