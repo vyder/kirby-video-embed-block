@@ -1,0 +1,7 @@
+title: Video
+
+accept:
+  extension: mp4
+
+fields:
+  # some fields here if you want

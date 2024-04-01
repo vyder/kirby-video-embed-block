@@ -1,0 +1,39 @@
+name: Video Embed
+icon: file-video
+fields:
+  video:
+    type: files
+    multiple: false
+    query: page.videos.template('video')
+    uploads: true
+  alt:
+    label: field.blocks.image.alt
+    type: text
+    icon: title
+  caption:
+    label: field.blocks.image.caption
+    type: writer
+    icon: text
+    inline: true
+  link:
+    label: field.blocks.image.link
+    type: text
+    icon: url
+  settings:
+    label: Settings
+    type: headline
+  controls:
+    label: Show Controls?
+    help: Shows the media controls overlay at the bottom of the video
+    type: toggle
+    width: 1/3
+  autoplay:
+    label: Autoplay?
+    help: Video starts playing when the page loads
+    type: toggle
+    width: 1/3
+  loop:
+    label: Loop Infinitely?
+    help: Video automatically replays when it ends
+    type: toggle
+    width: 1/3
