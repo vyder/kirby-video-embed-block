@@ -6,5 +6,9 @@
   "repository": "git@github.com:vyder/kirby-video-embed-block.git",
   "author": "Vidur Murali <vidur@monkeychai.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "dev": "npx -y kirbyup src/index.js --watch",
+    "build": "npx -y kirbyup src/index.js"
+  }
 }
