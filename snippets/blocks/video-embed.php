@@ -6,9 +6,9 @@ $alt     = $block->alt();
 $caption = $block->caption();
 $link    = $block->link();
 
-$controls = $block->showControls()->toBool() ? "controls" : "";
-$autoplay = $block->autoplay()->toBool()     ? "autoplay" : "";
-$loop     = $block->loop()->toBool()         ? "loop" : "";
+$controls = $block->controls()->toBool() ? "controls" : "";
+$autoplay = $block->autoplay()->toBool() ? "autoplay" : "";
+$loop     = $block->loop()->toBool()     ? "loop" : "";
 
 ?>
 
