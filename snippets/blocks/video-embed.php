@@ -9,6 +9,7 @@ $link    = $block->link();
 $controls = $block->controls()->toBool() ? "controls" : "";
 $autoplay = $block->autoplay()->toBool() ? "autoplay" : "";
 $loop     = $block->loop()->toBool()     ? "loop" : "";
+$muted    = $block->autoplay()->toBool() ? "muted" : "";
 
 ?>
 
@@ -19,6 +20,7 @@ $loop     = $block->loop()->toBool()     ? "loop" : "";
             <?= "$controls" ?>
             <?= "$autoplay" ?>
             <?= "$loop" ?>
+            <?= "$muted" ?>
             alt="<?= $alt->esc() ?>">
             <source src="<?= \Kirby\Toolkit\Str::esc($file->url()) ?>" type="video/mp4">
             Your browser does not support the video tag.
