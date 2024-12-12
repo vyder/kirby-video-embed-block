@@ -1,1 +1,15 @@
-.video-container>figure{display:flex;flex-direction:column;align-items:center;row-gap:.75rem}.video-caption{color:#777}.video-caption-link{text-decoration:underline}
+.video-container > figure{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    row-gap:.75rem
+}
+.video-container > figure > video {
+    width: 100%;
+}
+.video-caption {
+    color:#777
+}
+.video-caption-link {
+    text-decoration:underline
+}
