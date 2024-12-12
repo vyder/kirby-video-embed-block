@@ -45,6 +45,10 @@ const video = computed(() => props.content.video[0])
   row-gap: 0.75rem;
 }
 
+.video-container > figure > video {
+  width: 100%;
+}
+
 .video-caption {
   color: #777777;
 }
